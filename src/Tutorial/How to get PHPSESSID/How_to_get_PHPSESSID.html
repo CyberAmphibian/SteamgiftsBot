@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tutorial</title>
+</head>
+<body>
+
+<style type="text/css">
+	#content
+	{
+		width: 800px;
+  		height: 100%;  		
+  		margin: 0 auto;
+  		padding: 10px;
+  		border: 1px solid black;
+	}
+	h1
+	{
+		text-align: center;
+	}
+	img
+	{
+  		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+  		width: 90%;
+  		padding: 10px;
+	}
+
+</style>
+
+<div id="content">
+<div style="background-color: yellow"> The program does not get access to your Steam account, it only needs PHPSESSID in order to gain access to the list of giveaways available to you and to be able to join them.</div>
+
+<h1>How to get PHPSESSID?</h1>
+Open <a href="https://www.steamgifts.com/"> www.steamgifts.com </a> and sign in via Steam. After that, press Ctrl+Shift+I (Google Chrome). A panel will open where we should select the “Network” tab. Next, we should select the "Doc" filter and reload the site page (press F5).
+<br>
+<img src="step_1.png"/>
+<br>
+After that, several documents will appear in the list below, among which we should choose www.steamgifts.com. In the right pane, find <b>PHPSESSID</b> and copy the value.
+<br>
+<img src="step_2.png"/>
+
+</div>
+
+</body>
+</html>
